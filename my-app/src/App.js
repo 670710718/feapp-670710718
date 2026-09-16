@@ -148,7 +148,7 @@ function App() {
       <Navbar />                {/* ← เห็นทุกหน้า */}
       <main className="flex-1">
         <Routes>
-          <Route path="/Home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/movie" element={<Movie />} />
           <Route path="/movie/:id" element={<MovieDetail />} />
           <Route path="/About" element={<About />} />
