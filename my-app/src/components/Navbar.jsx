@@ -37,7 +37,7 @@ function Navbar() {
         🎬 Movie<span className="text-cyan-400">Hub</span>
       </span>
       <div className="flex gap-6">
-        <NavLink to="/Home" className={linkClass}>หน้าแรก</NavLink>
+        <NavLink to="/" className={linkClass}>หน้าแรก</NavLink>
         <NavLink to="/Movie" className={linkClass}>หนังทั้งหมด</NavLink>
         <NavLink to="/About" className={linkClass}>เกี่ยวกับเรา</NavLink>
       </div>
